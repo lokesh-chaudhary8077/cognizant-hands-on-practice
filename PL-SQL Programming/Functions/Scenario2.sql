@@ -16,3 +16,7 @@ BEGIN
     RETURN v_installment;
 END;
 /
+
+SELECT CalculateMonthlyInstallment(50000,8,5)
+AS MonthlyInstallment
+FROM Dual;
