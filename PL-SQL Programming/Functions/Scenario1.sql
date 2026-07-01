@@ -10,3 +10,7 @@ BEGIN
     RETURN v_age;
 END;
 /
+
+SELECT CalculateAge(DOB) AS Age
+FROM Customers
+WHERE CustomerID = 1;
