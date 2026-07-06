@@ -12,8 +12,7 @@
     <bean id="bookService"
           class="com.library.service.BookService">
 
-        <property name="bookRepository"
-                  ref="bookRepository"/>
+        <property name="bookRepository" ref="bookRepository"/>
 
     </bean>
 
